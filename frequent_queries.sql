@@ -68,3 +68,4 @@ JOIN departments d ON e.id_dep=d.id_dep
 JOIN forms f ON ef.id_form=f.id_form
 WHERE er.id_role = (SELECT id_role FROM roles
                     WHERE name_role='Пользователь');
+					
